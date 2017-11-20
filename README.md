@@ -4,4 +4,10 @@ Documentation for using PHPDI with annotations lacked for me, so i learned how t
 
 ## How to make this project work?
 
-composer install it and run index.php in src/main/webapp/ directory, you should see that injected class's property will be dumped.
+`composer install` it and run index.php in src/main/webapp/ directory, you should see that injected class's property will be dumped.
+
+
+## Links
+* Initial container configurations http://php-di.org/doc/container-configuration.html
+* About setting up and using cache with annotations http://php-di.org/doc/performances.html#cache
+* Best Practices http://php-di.org/doc/best-practices.html 
