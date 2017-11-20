@@ -1,0 +1,22 @@
+{
+  "name": "kambaa/phpdi-example",
+  "description": "PHP-DI learning project",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yusuf Gündüz",
+      "email": "yusuf.gunduz@gmail.com"
+    }
+  ],
+  "require": {
+    "php-di/php-di": "^5.4",
+    "doctrine/annotations": "^1.4",
+    "doctrine/cache": "~1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "PHPDIExample\\": "src\\main\\php\\"
+    }
+  }
+}
