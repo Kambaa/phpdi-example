@@ -10,7 +10,6 @@ use PHPDIExample\TestClass1;
 
 require_once __DIR__ . '/../../../vendor/autoload.php';
 
-
 $builder = new \DI\ContainerBuilder();
 $builder->useAutowiring(false);
 $builder->useAnnotations(true);
@@ -18,4 +17,4 @@ $builder->setDefinitionCache(new Doctrine\Common\Cache\ArrayCache());
 $container = $builder->build();
 
 $t1 = $container->get(TestClass1::class);
-var_dump($t1->getInjectedClass());
+var_dump($t1->getInjectedClass()->testIntValue);
