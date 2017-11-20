@@ -10,4 +10,5 @@ Documentation for using PHPDI with annotations lacked for me, so i learned how t
 ## Links
 * Initial container configurations http://php-di.org/doc/container-configuration.html
 * About setting up and using cache with annotations http://php-di.org/doc/performances.html#cache
+* Annotation usage http://php-di.org/doc/annotations.html
 * Best Practices http://php-di.org/doc/best-practices.html 
